@@ -68,7 +68,7 @@
     "public": true
   },
   "Usuario": {
-    "dataSource": "mysqlDs",	71	    "dataSource": "mysqlDs",
-     "public": true	72	    "public": true
+    "dataSource": "mysqlDs",	
+    "public": true	
   }	
 }
