@@ -27,3 +27,16 @@ boot(app, __dirname, function(err) {
   if (require.main === module)
     app.start();
 });
+
+
+
+//elementos para login de usuarios
+var path = require('path');
+var bodyParser = require('body-parser');
+
+// configure view handler
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
+// configure body parser
+app.use(bodyParser.urlencoded({extended: true}));
