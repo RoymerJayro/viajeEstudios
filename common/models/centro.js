@@ -47,6 +47,7 @@ module.exports = function (Centro) {
             context.args.filter = Centro.addVerificadoFilter(context.args.filter);
             next();
         }
+        
     });
 
     Centro.addVerificadoFilter = function(filter) {
